@@ -10,7 +10,8 @@
           </div>
           <div class="flex flex-col md:flex-row items-center gap-4">
             <label for="password" class="md:w-1/4 text-xl">{{ $t('Password') }}</label>
-            <Password id="password" v-model="password" toggleMask feedback="false"   />          </div>
+            <Password id="password" v-model="password" toggleMask feedback="false" />
+          </div>
         </div>
         <div class="flex justify-end mt-6">
           <Button :label="$t('Login')" icon="pi pi-sign-in" class="p-button-lg bg-teal-darken-1 text-center mx-auto" />
